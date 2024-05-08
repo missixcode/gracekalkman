@@ -778,7 +778,11 @@ text-wrap: nowrap;}
   border: 1px solid var(--white_a50);
 }
 
-
+@media (max-width:1260px) {
+  .scroller {
+    max-width: 100%;
+  }
+}
 
 
 
