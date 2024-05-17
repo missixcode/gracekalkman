@@ -709,6 +709,12 @@ text-wrap: nowrap;}
   margin: 10px 0px 60px 0px;
 }
 
+.graphic-underline {
+  width: 300px;
+  border: 1px solid var(--white_a50);
+  margin: 10px 0px 60px 0px;
+}
+
 .scroller {
   max-width: 1260px;
 }
@@ -833,8 +839,17 @@ text-wrap: nowrap;}
 
 .service-card .btn-icon svg { width: 25px; }
 
+@media (max-width:1400px) {
+  .service-card .img {
+    height: 236px !important;
+  }
+}
 
-
+@media (max-width:1200px) {
+  .service-card .img {
+    height: 164px !important;
+  }
+}
 
 
 /*-----------------------------------*\
@@ -868,8 +883,8 @@ text-wrap: nowrap;}
 }
 
 .portfolio-card .btn-icon {
-  top: 20px;
-  right: 20px;
+  bottom: 30px;
+  right: 30px;
   width: 45px;
   height: 45px;
 
@@ -890,11 +905,12 @@ text-wrap: nowrap;}
 \*-----------------------------------*/
 
 .footer { position: relative; 
-  margin-top: -80px;
+  margin-top: -60px;
 }
 
 .footer-port {
   position: relative;
+  margin-top: -80px;
 }
 
 .footer .abs-img { display: none; }
@@ -1901,7 +1917,7 @@ text-wrap: nowrap;}
   }
 
   .footer-port {
-    margin-top: 60px;
+    margin-top: -60px;
   }
 
 }
@@ -2023,18 +2039,18 @@ text-wrap: nowrap;}
 
    .port-container {
     position: relative;
-    margin-bottom: 80px;
     margin-top: 70px;
    }
 
-   .port-container h1 {
-    font-size: var(--fs-2);
-    padding: 15px;
-    text-align: center;
-    color: #fff;
-    font-family: var(--ff-recoleta);
-    margin-top: 60px;
+   .port-card-container {
+    width: 30%;
+    /* margin-block: none; */
    }
+
+   .port-card-container .portfolio-card {
+    margin-block-end: 50px;
+  }
+
 
   .port-container .port-image-container {
     display: flex;
@@ -2044,14 +2060,6 @@ text-wrap: nowrap;}
     padding: 10px;
   }
 
-  .port-container .port-image-container .port-image {
-    height: 250px;
-    width: 350px;
-    border: 2px solid #fff;
-    box-shadow: o 5px 15px rgba(0,0,0,.1);
-    overflow: hidden;
-    cursor: pointer;
-  }
 
   .port-container .port-image-container .port-image img {
     height: 100%;
@@ -2102,4 +2110,25 @@ text-wrap: nowrap;}
     .port-container .popup-image img {
       width: 95%;
     }
+  }
+
+  @media (max-width:1000px) {
+    .port-card-container {
+      width: 45%;
+     }
+
+     .port-card-container .portfolio-card {
+      margin-block-end: 40px;
+    }
+  }
+
+  @media (max-width:560px) {
+    .port-card-container {
+      width: 95%;
+    }
+
+    .port-card-container .portfolio-card {
+      margin-block-end: 35px;
+    }
+    
   }
