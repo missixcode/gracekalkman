@@ -2035,6 +2035,7 @@ text-wrap: nowrap;}
    * INDIVIDUAL PORT PAGES
    */
 
+
   .port-description {
     width: 80%;
     margin: 0 auto;
@@ -2144,4 +2145,117 @@ text-wrap: nowrap;}
       margin-block-end: 35px;
     }
     
+  }
+
+  /* CASE STUDY */
+
+  .section-subtitle-case-study {
+  font-family: var(--ff-gordita);
+  letter-spacing: 3.5px;
+  font-size: var(--fs-5);
+  color: var(--white_a80);
+  }
+
+  .project-header {
+    margin-top: 20rem;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+     }
+
+  .project-header-link {
+    width: 20vw;
+  }
+
+  .project-header-link a {
+    font-family: var(--ff-gordita);
+    color: var(--white_a80);
+    font-size: var(--fs-7);
+  }
+
+  .project-header-title {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-header-space {
+    width: 20vw;
+  }
+
+  .project-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 600px;
+    background-image: url("../images/luxlistmobilemockup2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .section-summary {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 70vw;
+    align-items: center;
+  }
+
+  .summary-header {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .summary-header p {
+  font-family: var(--ff-gordita);
+  font-size: var(--fs-4);
+  color: var(--white_a80);
+  }
+
+  .summary-text-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .summary-title {
+  font-family: var(--ff-gordita);
+  font-size: var(--fs-6);
+  color: var(--white_a80);
+  margin-bottom: 6px;
+  }
+
+  .paragraph-text {
+    font-size: 2rem;
+    color: var(--white_a80);
+    font-weight: var(--fw-300);
+    line-height: 1.7;
+  }
+
+  .summary-mission {
+    width: 65%;
+  }
+
+  .summary-client {
+    width: 30%;
+  }
+
+  .summary-client li {
+    font-size: 2rem;
+    color: var(--white_a80);
+    font-weight: var(--fw-300);
+    line-height: 1.7;
+  }
+
+  .line-break {
+    height: 1px;
+    width: 100vw;
+    background-color: var(--white_a9);
+    margin-top: 60px;
   }
