@@ -2193,12 +2193,92 @@ text-wrap: nowrap;}
     width: 20vw;
   }
 
-  .project-hero {
+  .lux-hero {
     width: 70vw;
     margin: 0 auto;
     margin-top: 60px;
     height: 600px;
     background-image: url("../images/luxlistmobilemockup2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .ec-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 600px;
+    background-image: url("../images/eightcountmockup.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .lux-planning-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 800px;
+    background-image: url("../images/luxlistplanning.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .lux-web-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 600px;
+    background-image: url("../images/luxlistportfolio\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .ec-moodboard-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 800px;
+    background-image: url("../images/ecmoodboard.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .ec-sitemap-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 380px;
+    background-image: url("../images/ecsitemapwireframes.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .ec-highfidelity-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: 600px;
+    background-image: url("../images/echighfidelity.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .ec-mockup2-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 600px;
+    background-image: url("../images/ecworkoutmockup.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
