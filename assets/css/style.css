@@ -2154,6 +2154,7 @@ text-wrap: nowrap;}
   letter-spacing: 3.5px;
   font-size: var(--fs-5);
   color: var(--white_a80);
+  text-align: center;
   }
 
   .project-header {
@@ -2177,10 +2178,14 @@ text-wrap: nowrap;}
   }
 
   .project-header-title {
-    width: 20vw;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .project-header .skills-underline {
+    width: 300px;
   }
 
   .project-header-space {
@@ -2224,6 +2229,10 @@ text-wrap: nowrap;}
     margin-bottom: 20px;
   }
 
+  .process-text-container {
+    margin-bottom: 20px;
+  }
+
   .summary-title {
   font-family: var(--ff-gordita);
   font-size: var(--fs-6);
@@ -2236,6 +2245,21 @@ text-wrap: nowrap;}
     color: var(--white_a80);
     font-weight: var(--fw-300);
     line-height: 1.7;
+    letter-spacing: 0.5px;
+  }
+
+  .website-link {
+    width: 100%;
+  }
+
+  .website-link a {
+    font-size: 2rem;
+    color: white;
+    font-weight: var(--fw-400);
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
   }
 
   .summary-mission {
@@ -2250,7 +2274,7 @@ text-wrap: nowrap;}
     font-size: 2rem;
     color: var(--white_a80);
     font-weight: var(--fw-300);
-    line-height: 1.7;
+    line-height: 1.9;
   }
 
   .line-break {
@@ -2259,3 +2283,83 @@ text-wrap: nowrap;}
     background-color: var(--white_a9);
     margin-top: 60px;
   }
+
+
+
+
+
+  @media (max-width:1100px) {
+    
+    .section-subtitle-case-study {
+      font-size: var(--fs-6);
+    }
+
+    .project-header-link a {
+      font-size: var(--fs-8);
+    }
+
+    .project-header .skills-underline {
+      width: 260px;
+    }
+  }
+
+  @media (max-width:1024px) {
+    
+    .project-header-link a {
+      display: none;
+    }
+
+    .summary-header[data-reveal],
+    .summary-mission[data-reveal],
+    .summary-client[data-reveal] {
+      transform: none;
+      opacity: 1;
+      transition: none;
+    }
+
+    .summary-client {
+      display: none;
+    }
+
+    .summary-mission {
+      width: 100%;
+    }
+
+    .project-hero {
+      margin-top: 30px;
+    }
+
+    .section-summary {
+      margin-top: 30px;
+    }
+
+    .summary-header {
+      margin-bottom: 6px;
+    }
+
+    .summary-text-container {
+      margin-bottom: 16px;
+    }
+
+    .line-break {
+      margin-top: 30px;
+    }
+  } 
+
+  @media (max-width:768px) {
+    
+    .project-hero {
+      height: 400px;
+    }
+  } 
+
+  @media (max-width:768px) {
+    
+    .section-subtitle-case-study {
+      width: 70vw;
+    }
+
+    .service-header {
+      margin-top: 100px;
+    }
+  } 
