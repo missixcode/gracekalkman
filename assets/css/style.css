@@ -2197,9 +2197,10 @@ text-wrap: nowrap;}
     width: 70vw;
     margin: 0 auto;
     margin-top: 60px;
-    height: 600px;
+    height: auto;
     background-image: url("../images/luxlistmobilemockup2.jpg");
-    background-size: cover;
+    background-size: contain;
+    aspect-ratio: 3000 / 2201;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -2208,9 +2209,22 @@ text-wrap: nowrap;}
     width: 70vw;
     margin: 0 auto;
     margin-top: 60px;
-    height: 600px;
+    height: auto;
     background-image: url("../images/eightcountmockup.jpg");
-    background-size: cover;
+    background-size: contain;
+    aspect-ratio: 16 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .rf-hero{
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: auto;
+    background-image: url("../images/rockforddark.jpg");
+    background-size: contain;
+    aspect-ratio: 6 / 5;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -2219,9 +2233,10 @@ text-wrap: nowrap;}
     width: 70vw;
     margin: 0 auto;
     margin-top: 60px;
-    height: 800px;
+    height: auto;
     background-image: url("../images/luxlistplanning.jpg");
-    background-size: cover;
+    background-size: contain;
+    aspect-ratio: 12 / 9;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -2231,9 +2246,10 @@ text-wrap: nowrap;}
     margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 60px;
-    height: 600px;
+    height: auto;
     background-image: url("../images/luxlistportfolio\ \(1\).jpg");
-    background-size: cover;
+    background-size: contain;
+    aspect-ratio: 16 / 9;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -2242,9 +2258,22 @@ text-wrap: nowrap;}
     width: 70vw;
     margin: 0 auto;
     margin-top: 60px;
-    height: 800px;
+    height: auto;
     background-image: url("../images/ecmoodboard.jpg");
-    background-size: cover;
+    background-size: contain;
+    aspect-ratio: 12 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .rf-moodboard-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: auto;
+    background-image: url("../images/rockfordmoodboard.jpg");
+    background-size: contain;
+    aspect-ratio: 6 / 5;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -2254,9 +2283,23 @@ text-wrap: nowrap;}
     margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 60px;
-    height: 380px;
+    height: auto;
     background-image: url("../images/ecsitemapwireframes.jpg");
-    background-size: cover;
+    background-size: contain;
+    aspect-ratio: 20 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .rf-sitemap-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: auto;
+    background-image: url("../images/rockfordwireframes.jpg");
+    background-size: contain;
+    aspect-ratio: 15 / 9;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -2265,9 +2308,22 @@ text-wrap: nowrap;}
     width: 70vw;
     margin: 0 auto;
     margin-top: 60px;
-    height: 600px;
+    height: auto;
     background-image: url("../images/echighfidelity.jpg");
-    background-size: cover;
+    background-size: contain;
+    aspect-ratio: 16 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .rf-highfidelity-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: auto;
+    background-image: url("../images/rockfordmobilewireframes.jpg");
+    background-size: contain;
+    aspect-ratio: 14 / 9;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -2277,9 +2333,10 @@ text-wrap: nowrap;}
     margin: 0 auto;
     margin-top: 60px;
     margin-bottom: 60px;
-    height: 600px;
+    height: auto;
     background-image: url("../images/ecworkoutmockup.jpg");
-    background-size: cover;
+    background-size: contain;
+    aspect-ratio: 14 / 9;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -2429,9 +2486,11 @@ text-wrap: nowrap;}
 
   @media (max-width:768px) {
     
-    .project-hero {
-      height: 400px;
-    }
+    .ec-hero,
+    .lux-hero,
+    .rf-hero {
+  height: auto;
+}
   } 
 
   @media (max-width:768px) {
@@ -2444,3 +2503,83 @@ text-wrap: nowrap;}
       margin-top: 100px;
     }
   } 
+
+
+  /**
+   * THIS IS WHERE CHAT GPT CODE STARTS
+   */
+
+   @media (max-width: 768px) {
+  .project-header {
+    width: 92vw;
+  }
+
+  .project-header-title {
+    width: 92vw;
+  }
+
+
+  .ec-hero,
+  .lux-hero,
+  .rf-hero {
+    width: 92vw;
+    margin: 30px auto 30px;
+  }
+
+  .section-summary {
+    width: 92vw;
+    margin-bottom: 30px;
+  }
+
+  .summary-text-container {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .summary-mission,
+  .summary-client {
+    width: 100%;
+  }
+
+  .summary-client {
+    display: block;
+  }
+
+  .paragraph-text,
+  .website-link a,
+  .summary-client li {
+    font-size: 1.55rem;
+    line-height: 1.65;
+  }
+
+  .summary-header p {
+    font-size: 2.8rem;
+  }
+
+  .summary-title {
+    font-size: 1.7rem;
+  }
+}
+
+
+
+  
+
+@media (max-width: 768px) {
+  .ec-hero,
+  .ec-moodboard-hero,
+  .ec-sitemap-hero,
+  .ec-highfidelity-hero,
+  .ec-mockup2-hero,
+  .lux-hero,
+  .lux-planning-hero,
+  .lux-web-hero,
+  .rf-hero,
+  .rf-highfidelity-hero,
+  .rf-moodboard-hero,
+  .rf-sitemap-hero {
+    width: 92vw;
+    margin: 30px auto;
+    height: auto;
+  }
+}
