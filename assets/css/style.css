@@ -2229,6 +2229,18 @@ text-wrap: nowrap;}
     background-repeat: no-repeat;
   }
 
+  .co-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: auto;
+    background-image: url("../images/cookoncemockup.jpg");
+    background-size: contain;
+    aspect-ratio: 6 / 5;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .lux-planning-hero {
     width: 70vw;
     margin: 0 auto;
@@ -2266,6 +2278,18 @@ text-wrap: nowrap;}
     background-repeat: no-repeat;
   }
 
+  .co-moodboard-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: auto;
+    background-image: url("../images/cookonceplanning.jpg");
+    background-size: contain;
+    aspect-ratio: 16 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .rf-moodboard-hero {
     width: 70vw;
     margin: 0 auto;
@@ -2287,6 +2311,32 @@ text-wrap: nowrap;}
     background-image: url("../images/ecsitemapwireframes.jpg");
     background-size: contain;
     aspect-ratio: 20 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .co-sitemap-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: auto;
+    background-image: url("../images/cookoncesitemap.jpg");
+    background-size: contain;
+    aspect-ratio: 16 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .co-wireframe-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: auto;
+    background-image: url("../images/cookoncewireframeweb2.jpg");
+    background-size: contain;
+    aspect-ratio: 16 / 9;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -2316,6 +2366,18 @@ text-wrap: nowrap;}
     background-repeat: no-repeat;
   }
 
+  .co-highfidelity-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: auto;
+    background-image: url("../images/cookoncemobile2.jpg");
+    background-size: contain;
+    aspect-ratio: 16 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .rf-highfidelity-hero {
     width: 70vw;
     margin: 0 auto;
@@ -2337,6 +2399,19 @@ text-wrap: nowrap;}
     background-image: url("../images/ecworkoutmockup.jpg");
     background-size: contain;
     aspect-ratio: 14 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .co-mockup2-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: auto;
+    background-image: url("../images/cookoncemockupmobile2.jpg");
+    background-size: contain;
+    aspect-ratio: 10 / 9;
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -2392,7 +2467,7 @@ text-wrap: nowrap;}
 
   .website-link a {
     font-size: 2rem;
-    color: white;
+    color: var(--radical-red);
     font-weight: var(--fw-400);
     line-height: 1.7;
     letter-spacing: 0.5px;
