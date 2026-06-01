@@ -2241,6 +2241,18 @@ text-wrap: nowrap;}
     background-repeat: no-repeat;
   }
 
+  .ot-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: auto;
+    background-image: url("../images/ot-hero.jpg");
+    background-size: contain;
+    aspect-ratio: 12 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .lux-planning-hero {
     width: 70vw;
     margin: 0 auto;
@@ -2302,6 +2314,18 @@ text-wrap: nowrap;}
     background-repeat: no-repeat;
   }
 
+  .ot-moodboard-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: auto;
+    background-image: url("../images/ot-lofi.jpg");
+    background-size: contain;
+    aspect-ratio: 18 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .ec-sitemap-hero {
     width: 70vw;
     margin: 0 auto;
@@ -2354,6 +2378,19 @@ text-wrap: nowrap;}
     background-repeat: no-repeat;
   }
 
+  .ot-sitemap-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: auto;
+    background-image: url("../images/ot-hifi.jpg");
+    background-size: contain;
+    aspect-ratio: 18 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
   .ec-highfidelity-hero {
     width: 70vw;
     margin: 0 auto;
@@ -2388,6 +2425,21 @@ text-wrap: nowrap;}
     aspect-ratio: 14 / 9;
     background-position: center;
     background-repeat: no-repeat;
+  }
+
+  .ot-highfidelity-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: auto;
+    background-size: contain;
+    aspect-ratio: 12 / 9;
+  }
+
+  .iframe-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
   }
 
   .ec-mockup2-hero {
