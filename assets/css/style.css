@@ -2278,6 +2278,44 @@ text-wrap: nowrap;}
     margin-bottom: 60px;
   }
 
+  .ss-hero {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: auto;
+    background-image: url("../images/Sip\ Billboard\ Mockup.jpg");
+    background-size: contain;
+    aspect-ratio: 12 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .ss-hero3 {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: auto;
+    background-image: url("../images/sipseltzer.jpg");
+    background-size: contain;
+    aspect-ratio: 13 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+  }
+
+  .ss-hero2 {
+    width: 70vw;
+    margin: 0 auto;
+    margin-top: 60px;
+    height: auto;
+    background-image: url("../images/Behance\ -\ Sip\ Stylescape\ 1-03.jpg");
+    background-size: contain;
+    aspect-ratio: 21 / 9;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 60px;
+  }
+
   .lux-planning-hero {
     width: 70vw;
     margin: 0 auto;
